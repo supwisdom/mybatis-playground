@@ -1,0 +1,8 @@
+CREATE TABLE CITY (
+  ID    NUMBER(19) PRIMARY KEY,
+  NAME  VARCHAR2(200),
+  STATE VARCHAR2(200)
+);
+
+INSERT INTO CITY(id, name, state) VALUES (1, 'New York City', 'NY');
+
